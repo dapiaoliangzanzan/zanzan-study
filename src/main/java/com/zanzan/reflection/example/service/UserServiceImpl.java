@@ -13,8 +13,8 @@ public class UserServiceImpl {
      * @param userEmail 用户邮箱
      */
     public void order(String userEmail){
-        System.out.println("------下单成功------");
-        System.out.println("------查询用户------");
+        System.out.println("-------下单成功------");
+        System.out.println("-------查询用户------");
         emailService.senEmail(userEmail);
     }
 }
