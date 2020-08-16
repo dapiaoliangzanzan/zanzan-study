@@ -4,10 +4,10 @@ import com.zanzan.reflection.example.service.UserServiceImpl;
 import com.zanzan.reflection.example.utils.BeanUtil;
 
 public class TestMail {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         Object bean = BeanUtil.getBean(UserServiceImpl.class);
         UserServiceImpl userService = (UserServiceImpl) bean;
-        userService.order("1515@qq.com`");
+        userService.order("1515@qq.com");
 
     }
 }

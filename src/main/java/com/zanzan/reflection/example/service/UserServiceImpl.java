@@ -1,11 +1,14 @@
 package com.zanzan.reflection.example.service;
 
+import com.zanzan.reflection.example.anno.MyAuto;
+
 /**
  * 用户模块
  * @author huangfu
  */
 public class UserServiceImpl {
 
+    @MyAuto
     private EmailServiceImpl emailService;
 
     /**
