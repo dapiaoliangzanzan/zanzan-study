@@ -1,9 +1,7 @@
 package com.zanzan.reflection.example.utils;
 
 import com.zanzan.reflection.example.anno.MyAuto;
-import com.zanzan.reflection.example.service.EmailServiceImpl;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
 public class BeanUtil {
